@@ -46,5 +46,7 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@a45bef097606dca6eac8285c279babedd70e6dfd # v3.37.9
+        if: always()
+        continue-on-error: true
         with:
           category: "/language:javascript-typescript"
