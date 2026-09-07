@@ -1,18 +1,9 @@
 {
-	"ignores": [
-		"*.config.js",
-		"*.config.ts"
-	],
+	"ignores": ["*.config.js", "*.config.ts"],
 	"rules": {
 		"@typescript-eslint/ban-types": "off",
-		"@typescript-eslint/brace-style": [
-			"error",
-			"stroustrup"
-		],
-		"@typescript-eslint/class-literal-property-style": [
-			"error",
-			"fields"
-		],
+		"@typescript-eslint/brace-style": ["error", "stroustrup"],
+		"@typescript-eslint/class-literal-property-style": ["error", "fields"],
 		"@typescript-eslint/keyword-spacing": [
 			"error",
 			{
@@ -35,27 +26,15 @@
 		"@typescript-eslint/member-ordering": [
 			"error",
 			{
-				"default": [
-					"field",
-					"constructor",
-					"get",
-					"set",
-					"method"
-				]
+				"default": ["field", "constructor", "get", "set", "method"]
 			}
 		],
 		"@typescript-eslint/naming-convention": [
 			"error",
 			{
 				"selector": "variable",
-				"modifiers": [
-					"const",
-					"global"
-				],
-				"format": [
-					"camelCase",
-					"UPPER_CASE"
-				],
+				"modifiers": ["const", "global"],
+				"format": ["camelCase", "UPPER_CASE"],
 				"filter": {
 					"regex": "^(__filename|__dirname)$",
 					"match": false
@@ -63,9 +42,7 @@
 			},
 			{
 				"selector": "variable",
-				"format": [
-					"camelCase"
-				],
+				"format": ["camelCase"],
 				"filter": {
 					"regex": "^(__filename|__dirname)$",
 					"match": false
@@ -77,17 +54,12 @@
 		"@typescript-eslint/no-empty-function": [
 			"error",
 			{
-				"allow": [
-					"arrowFunctions"
-				]
+				"allow": ["arrowFunctions"]
 			}
 		],
 		"@typescript-eslint/no-inferrable-types": "off",
 		"@typescript-eslint/no-namespace": "off",
-		"@typescript-eslint/object-curly-spacing": [
-			"error",
-			"always"
-		],
+		"@typescript-eslint/object-curly-spacing": ["error", "always"],
 		"@typescript-eslint/parameter-properties": "off",
 		"@typescript-eslint/prefer-nullish-coalescing": [
 			"error",
@@ -97,17 +69,11 @@
 		],
 		"@typescript-eslint/prefer-promise-reject-errors": "off",
 		"@typescript-eslint/return-await": "off",
-		"arrow-parens": [
-			"error",
-			"always"
-		],
+		"arrow-parens": ["error", "always"],
 		"capitalized-comments": "off",
 		"complexity": "off",
 		"default-case": "off",
-		"import/extensions": [
-			"error",
-			"never"
-		],
+		"import/extensions": ["error", "never"],
 		"import/order": [
 			"error",
 			{
@@ -126,24 +92,15 @@
 				}
 			}
 		],
-		"max-depth": [
-			"error",
-			8
-		],
-		"max-params": [
-			"error",
-			12
-		],
+		"max-depth": ["error", 8],
+		"max-params": ["error", 12],
 		"no-await-in-loop": "off",
 		"no-else-return": "off",
 		"no-lonely-if": "off",
 		"no-negated-condition": "off",
 		"object-curly-newline": "off",
 		"object-shorthand": "off",
-		"one-var": [
-			"error",
-			"never"
-		],
+		"one-var": ["error", "never"],
 		"unicorn/empty-brace-spaces": "off",
 		"unicorn/no-array-callback-reference": "off",
 		"unicorn/no-length-as-slice-end": "off",

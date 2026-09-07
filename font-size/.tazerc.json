@@ -6,7 +6,5 @@
 		"@types/node": "minor",
 		"typescript": "minor"
 	},
-	"exclude": [
-		"xo"
-	]
+	"exclude": ["xo"]
 }

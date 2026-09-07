@@ -1,8 +1,6 @@
 [
-  {
-    "action": "remove",
-    "paths": [
-      "src/vs/workbench/contrib/welcomeOnboarding"
-    ]
-  }
+	{
+		"action": "remove",
+		"paths": ["src/vs/workbench/contrib/welcomeOnboarding"]
+	}
 ]
