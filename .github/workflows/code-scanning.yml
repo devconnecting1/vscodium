@@ -66,7 +66,7 @@ jobs:
           persist-credentials: false
 
       - name: Run Trivy filesystem scan
-        uses: aquasecurity/trivy-action@18f2510ee396bbf400402947e1f29f2f2b2ff0aa # v0.28.0
+        uses: aquasecurity/trivy-action@a9c7b0f06e461e9d4b4d1711f154ee024b8d7ab8 # v0.36.0
         with:
           scan-type: "fs"
           scan-ref: "."
