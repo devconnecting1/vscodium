@@ -8,7 +8,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: mod-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
