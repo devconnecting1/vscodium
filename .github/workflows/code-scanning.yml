@@ -103,12 +103,11 @@ jobs:
       - name: Run TruffleHog
         uses: trufflesecurity/trufflehog@main
         with:
-          extra_args: --only-verified --json --output trufflehog-results.json || true
+          extra_args: --only-verified --json
 
       - name: Convert TruffleHog to SARIF
         if: always()
         run: |
-          pip install jsonschema 2>/dev/null || true
           python3 -c "
           import json, sys
           try:
