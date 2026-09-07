@@ -18,7 +18,7 @@ env:
   VSCODE_QUALITY: insider
 
 concurrency:
-  group: ci-${{ github.ref }}
+  group: publish-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
